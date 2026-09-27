@@ -81,6 +81,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "AI-driven call center and BPO solutions for growing businesses." },
       { name: "author", content: "IWC BPO" },
       { property: "og:type", content: "website" },
+      { property: "og:image", content: "https://iwc-bpo-sample-website.vercel.app/og-image.png" },
+{ name: "twitter:image", content: "https://iwc-bpo-sample-website.vercel.app/og-image.png" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
