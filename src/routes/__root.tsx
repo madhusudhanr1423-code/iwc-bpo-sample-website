@@ -77,9 +77,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Farno" },
-      { name: "description", content: "Call center and BPO solutions for growing businesses." },
-      { name: "author", content: "Farno" },
+      { title: "IWC BPO" },
+      { name: "description", content: "AI-driven call center and BPO solutions for growing businesses." },
+      { name: "author", content: "IWC BPO" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
